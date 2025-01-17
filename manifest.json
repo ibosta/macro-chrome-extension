@@ -1,0 +1,35 @@
+    {
+        "manifest_version": 3,
+        "name": "Macro By itaskira",
+        "version": "1.0",
+    "description": "github.com/ibosta tarafindan yapilmistir. 42 ecole student, thx.",
+        "permissions": ["storage"],
+        "background": {
+          "service_worker": "background.js"
+        },
+        "content_scripts": [
+          {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+          }
+        ],
+        "action": {
+  "default_popup": "popup.html",
+  "default_icon": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "default_title": "Eklenti Ayarları",
+  "default_width": 400
+}
+,
+        "commands": {
+          "trigger-string": {
+            "suggested_key": {
+              "default": "Alt+Shift+Y"
+            },
+            "description": "String yazdır"
+          }
+        }
+      }
