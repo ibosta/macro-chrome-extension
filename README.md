@@ -14,7 +14,7 @@
 
 ## Installation
 
-To install ** Macro** and start using it:
+To install **Macro** and start using it:
 
 1. Clone or download this repository to your local machine.
 2. Open Google Chrome and go to the Extensions page: `chrome://extensions/`.
@@ -43,6 +43,8 @@ To install ** Macro** and start using it:
 6. **Save and Use Multiple Macros:**
    - You can create multiple macros by setting different text snippets and corresponding keyboard shortcuts. 
    - These can be managed directly within the popup.
+   - 
+![usage help](usage.gif)
 
 ## Configuration
 
