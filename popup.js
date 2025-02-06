@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const customString = document.getElementById("customString").value;
     chrome.storage.sync.set({ customString }, () => {
       const status = document.querySelector(".status");
-      status.textContent = "İfade başarıyla kaydedildi!";
+      status.textContent = "Saved!";
       setTimeout(() => (status.textContent = ""), 3000);
     });
   });
